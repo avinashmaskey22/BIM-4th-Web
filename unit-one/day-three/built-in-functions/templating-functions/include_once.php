@@ -1,6 +1,7 @@
 <?php
 include_once 'add.php';
-include_once '../add.php';
+include_once 'add.php';
+// include_once '../add.php';
 /* 
     The include_once statement:
 
@@ -15,7 +16,7 @@ include_once '../add.php';
 /* Example */
 echo add(10, 20);
 echo "<br>";
-echo hello(20, 20);
+// echo hello(20, 20);
 
 echo "<br>";
 echo "Hello";

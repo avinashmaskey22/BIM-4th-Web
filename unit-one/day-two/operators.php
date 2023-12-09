@@ -30,9 +30,9 @@
 
 /* Increment or Decrement Operator */
 
-$a = 10;
+/* $a = 10;
 
-/* echo $a;
+echo $a;
 echo "<br>";
 echo $a++;
 echo "<br>";
@@ -56,10 +56,10 @@ $a += 1;
 
 echo $a; */
 
-$fname = "Cristiano";
+/* $fname = "Cristiano";
 $lname = "Ronaldo";
 
-/* $fname = $fname . " " . $lname;
+$fname = $fname . " " . $lname;
 $fname .=  " " . $lname;
 echo $fname; */
 
@@ -73,7 +73,7 @@ echo $fname; */
 $a = 1000;
 $b = '1000';
 
-$c = ""; //string null
+$c = null; //string null
 
 
 /* php donot return false, null, string null */
@@ -95,10 +95,10 @@ $c = ""; //string null
     -> If x > y, it returns 1
 */
 
-/* $x = 20;
-$y = 10;
+$x = 20;
+$y = 100;
 
-echo ($x <=> $y); */
+echo ($x <=> $y);
 
 
 /* Conditional Operator or Ternary Operator or short hand property of if else */

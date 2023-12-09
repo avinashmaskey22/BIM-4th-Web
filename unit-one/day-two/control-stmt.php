@@ -30,8 +30,8 @@ if ($is_logged) {
         echo "Sorry! Invalid credentials.";
 } */
 
-
-/* if ($is_logged) :
+/* $is_logged = false;
+if ($is_logged) :
         echo "You are successgully logged in.";
 else :
         echo "Sorry! Invalid credentials.";
@@ -128,7 +128,7 @@ switch ($num % 2) {
                         $i++;
                 } while ($i <= 10); */
 
-                /*  while ($i <= 10) {
+                 /* while ($i <= 10) {
                         echo "<tr><td>" . "8 * " . $i . " = " . (8 * $i) . "</td></tr>";
                         $i++;
                 } */
@@ -139,6 +139,7 @@ switch ($num % 2) {
                         echo "<td>" . " 10 * " . $i . " = " . (10 * $i) . "</td>";
                         echo "</tr>";
                 } */
+
                 ?>
     </table>
 

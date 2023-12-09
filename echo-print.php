@@ -9,3 +9,5 @@ echo "<br>";
 
 echo "hello", "world"; //multiple expressions can be used in echo
 // print "world", "hello"; //multiple expressions cannot be used in print
+
+?>

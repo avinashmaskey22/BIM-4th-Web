@@ -5,10 +5,9 @@
 /* $email = "avinash.maskey11@gmail.com";
 
 echo "Please contact me at: $email";
-
 echo "<br>";
-echo 'please contact me at: $email';
- */
+echo 'please contact me at: $email'; */
+
 
 // variable interpolation
 $income = 200;
@@ -30,11 +29,11 @@ echo "<br>";
 
 //Interpolating with curly braces
 
-$res = 'updat';
-$bool = false;
+/* $res = 'updat';
+$bool = true;
 
 if ($bool) {
     echo "Welcome! your profile is {$res}ed successfully.";
 } else {
     echo "Error! while {$res}ing your profile.";
-}
+} */

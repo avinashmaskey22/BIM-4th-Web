@@ -24,15 +24,16 @@ double quotes. This means that quotes in a heredoc do not need to
 be escaped.
 
 */
+$num = 1000;
 
 $data = <<<MYFILE
-        This is our second class in <b>PHP</b> 
+        This is $num our second class in <b>PHP</b> 
         <br>
         "The double quote is also acceptable in heredoc" 
         <br>
         'helloworld'
         <br>
         "As discussed in class try to copy and paste b.html table code here inside heredoc and see the result"      
-MYFILE;
+MYFILE; 
 
 echo $data;
