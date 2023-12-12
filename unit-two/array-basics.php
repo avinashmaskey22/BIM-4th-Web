@@ -9,10 +9,10 @@
 
 /* two ways of defining an array */
 $info = [
-    "Thames College",
-    "info@thames.edu.np",
-    "PB",
-    14434178
+    "Shanker Dev Campus",
+    "sdc@shankerdev.edu.np",
+    "Putalisadak",
+    11111111
 ];
 
 // echo $info;
@@ -26,13 +26,14 @@ var_dump($info);
 echo "</pre>"; */
 
 /* $infos = array(
-    "Thames College",
-    "info@thames.edu.np",
-    "Purano Baneshwor",
-    14434178
+    "Shanker Dev Campus",
+    "sdc@thames.edu.np",
+    "Putalisadak",
+    11111111
 );
- */
-/* echo "<pre>";
+
+
+echo "<pre>";
 print_r($infos);
 echo "</pre>"; */
 
@@ -51,16 +52,13 @@ echo "</pre>"; */
 
 /* Indexive array or Numeric arrays */
 
-$data = array(
+/* $data = array(
     "Ram Nepali",
     "ram.nepali@gmail.com",
     "Nepal",
     988888888888
-);
+); */
 
-/* echo "<pre>";
-print_r($data);
-echo "</pre>"; */
 
 
 /* Associative array */

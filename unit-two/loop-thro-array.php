@@ -46,8 +46,6 @@ foreach ($dinner as $val) {
     echo "You can eat: $val" . "<br>";
 } */
 
-
-
 /* Example: Array element order and foreach() */
 
 /* $letters[0] = 'A';
@@ -82,7 +80,6 @@ if (array_key_exists('Choila', $meals)) {
     'Choila' => 1.3,
     'Hot Dog' => 2.3
 );
-
 
 if (array_search(0.7, $meals)) {
     echo "The amount of Burger is: \$0.7";

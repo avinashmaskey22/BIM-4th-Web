@@ -18,9 +18,6 @@ foreach ($pro as $key => $value){
 }
  */
 
-
-
-
 $arr = array(
     'name',
     'email',

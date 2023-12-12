@@ -77,9 +77,9 @@ $vegetable = 'delicious';
 $dinner = array(
     'name1' => 'Sweet Corn & Asparagus',
     'name2' => 'Lemon Chicken',
-    'Braised Bamboo Fungus'
+    'Braised Bamboo Fungus',
+    'MoMo'
 );
-
 
 // echo "I want $dinner[0] and $dinner[1].";
 // echo "I want $dinner[name1] and $dinner[name2].";
@@ -92,6 +92,7 @@ $lunch[0] = 'Dried Mushrooms in Brown Sauce';
 
 // This sets $lunch[1]
 $lunch[1] = 'Pineapple and Yu Fungus';
+$lunch[] = 'Choila';
 
 /* echo "<pre>";
 print_r($lunch);
