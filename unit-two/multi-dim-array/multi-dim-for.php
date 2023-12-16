@@ -13,14 +13,12 @@ $person = array(
         'address' => 'Lalitpur',
         'phone' => '8888888888'
     ),
-
     array(
         'name' => 'User Three',
         'email' => 'userthree@gmail.com',
         'address' => 'Bhaktapur',
         'phone' => '7777777777'
     ),
-
     array(
         'name' => 'User Four',
         'email' => 'userfour@gmail.com',

@@ -1,9 +1,9 @@
 <?php
 $person = array(
-    'name' => 'User One',
-    'email' => 'userone@gmail.com',
-    'address' => 'Kathmandu',
-    'Phone' => '9999999999'
+    'User One',
+    'userone@gmail.com',
+    'Kathmandu',
+    '9999999999'
 );
 $i = 1;
 ?>

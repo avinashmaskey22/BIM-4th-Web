@@ -1,4 +1,5 @@
 <?php
+/* Not good approach of creating a table in PHP */
 $person = array(
     array(
         'name' => 'User One',

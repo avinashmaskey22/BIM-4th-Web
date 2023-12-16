@@ -22,7 +22,6 @@ $meals = array(
     'Hot Dog' => 2.3
 );
 
-
 foreach ($meals as $dish => $price) {
 
     /* $price = $price * 2;

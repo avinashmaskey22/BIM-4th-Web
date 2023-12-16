@@ -34,7 +34,7 @@ foreach ($meal as $key => $value) {
 echo "<br>";
 
 // ksort($meal);
-// krsort($meal);
+krsort($meal);
 
 
 echo "After Sorting: " . "<br>";
