@@ -31,7 +31,7 @@ function sum() {
 
 // echo sum(); // Outputs 25
 
-/* $_SERVER - his array contains information created by the web server such as paths, headers, and script locations. It's often used to retrieve environment information, like the user's IP address, the web server software, and the page's URL. */
+/* $_SERVER - this array contains information created by the web server such as paths, headers, and script locations. It's often used to retrieve environment information, like the user's IP address, the web server software, and the page's URL. */
 
 /* $_SERVER Example */
 
@@ -59,7 +59,7 @@ the contents of $_GET, $_POST, $_COOKIE. */
 
 /* $_REQUEST Example: For a name field sent via POST or GET: */
 
-// echo $_REQUEST['name']; // Outputs the value of the name parameter
+// echo $_REQUEST['username']; // Outputs the value of the name parameter
 
 /* $_FILES - An array of items uploaded via an HTTP POST request. It provides information about uploaded files, like their names, types, and temporary storage paths.
 */
@@ -74,6 +74,7 @@ the contents of $_GET, $_POST, $_COOKIE. */
 /* $_COOKIE Example: If a cookie named campus is set: */
 
 // setcookie('campus', 'shanker dev campus', time() + 20, "/");
+
 // echo $_COOKIE['campus']; // Outputs the value of the user_preference cookie
 
 /* $_SESSION - This array stores session variables. Sessions are a way to store data for individual users against a unique session ID, which can be used for persisting user state across page requests. */
@@ -81,6 +82,7 @@ the contents of $_GET, $_POST, $_COOKIE. */
 /* $_SESSION Example: After starting a session and setting a variable: */
 
 /* session_start();
+
 $_SESSION['username'] = 'JohnDoe';
 echo $_SESSION['username']; // Outputs JohnDoe */
 

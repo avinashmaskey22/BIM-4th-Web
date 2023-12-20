@@ -36,7 +36,7 @@
 
 /* string replace method */
 
-// Syntax: str_replace(search/needle, replace, subject/string/haystack, count)
+// Syntax: str_replace(search/needle, replace, /string/haystack, count)
 
 /* $str = "Thames Campus";
 echo str_replace("Thames", "SDC", $str, $i);
