@@ -23,7 +23,7 @@ function process()
 </head>
 
 <body>
-    <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
         Your name: <input type="text" name="my_name">
         <br>
         <input type="submit" value="Say Hello">

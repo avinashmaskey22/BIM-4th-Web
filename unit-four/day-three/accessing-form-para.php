@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <form method="POST" action="process.php">
+    <form method="GET" action="process.php">
         <label for="fname">First Name: </label>
         <input type="text" id="fname" name="fname" required> <br><br>
 

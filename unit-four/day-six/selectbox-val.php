@@ -1,4 +1,5 @@
 <?php
+
 $error = "";
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     if (isset($_POST['city']) && !empty($_POST['city'])) {
@@ -28,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         }
         ?>
     </span>
-    <br>
+    <br><br>
     <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
         City you live in: <select name="city[]" multiple>
