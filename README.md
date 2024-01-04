@@ -1,2 +1,2 @@
 # bim-php
-This repo includes the Web Technology - II programming codes of TU BIM 4th Semester
+This repo includes the Web Technology - II programming codes for TU BIM 4th Semester
