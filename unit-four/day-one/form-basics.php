@@ -16,7 +16,7 @@
     <form action="simple.php" method="POST" enctype="" name="form">
 
         <label for="fname">First Name: </label>
-        <input type="number" id="fname" name="fname" required> <br><br>
+        <input type="text" id="fname" name="fname" required> <br><br>
 
         <label for="lname">Last Name:</label>
         <input type="text" id="lname" name="lname"> <br><br>

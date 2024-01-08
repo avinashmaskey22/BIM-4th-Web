@@ -6,6 +6,6 @@
     strip_tags()
 */
 
-$str = "<b>Thames<b>";
+$str = "<b>Shanker Dev Campus<b>";
 
 echo strip_tags($str);

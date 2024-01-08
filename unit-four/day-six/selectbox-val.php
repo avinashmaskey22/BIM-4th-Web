@@ -10,6 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $error = "** Please select your city **" . "<br>";
     }
 }
+
 ?>
 
 <!DOCTYPE html>
