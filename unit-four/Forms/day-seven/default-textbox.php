@@ -13,7 +13,7 @@
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $name = htmlentities($_POST['name']);
-    echo $name;
+    // echo $name;
 }
 
 ?>
