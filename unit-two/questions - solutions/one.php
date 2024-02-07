@@ -45,9 +45,9 @@ $person = array(
         foreach ($person as $key => $user) {
         ?>
         <tr>
-            <td><?php echo $i++ . "."; ?></td>
-            <td><?php echo $user['name']; ?></td>
-            <td><?php echo $user['gender']; ?></td>
+            <td align="center"><?php echo $i++ . "."; ?></td>
+            <td align="center"><?php echo $user['name']; ?></td>
+            <td align="center"><?php echo $user['gender']; ?></td>
         </tr>
         <?php } ?>
     </table>

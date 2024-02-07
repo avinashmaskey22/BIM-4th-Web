@@ -8,12 +8,12 @@ $headers = array(
 //Array of data to be stored in a file
 $data = array(
     array(
-        'name' => 'Thames International College',
-        'address' => 'PB'
+        'name' => 'Shanker Dev Campus',
+        'address' => 'Butterfly Street'
     ),
     array(
-        'name' => 'Ncit College',
-        'address' => 'Balkumari'
+        'name' => 'Thames International College',
+        'address' => 'Purano Baneshwor'
     )
 );
 

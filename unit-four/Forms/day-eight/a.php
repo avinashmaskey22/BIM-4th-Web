@@ -1,5 +1,5 @@
 <?php
 
-$str = "<b>IMS</b>";
+$str = "<b>Thames</b>";
 
 echo strip_tags($str);
