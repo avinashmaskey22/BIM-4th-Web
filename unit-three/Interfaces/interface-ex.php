@@ -29,7 +29,7 @@ PHP - Interfaces vs. Abstract Classes:
 
     - Interfaces cannot have properties, while abstract classes can.
 
-    - All interface methods must be public, while abstract class methods is public 
+    - All interface methods must be public, while abstract class methods is public, 
       private or protected.
 
     - All methods in an interface are abstract, so they cannot be implemented in 
