@@ -28,7 +28,7 @@ Key Characteristics of Interfaces:
     (as a class can only extend one abstract class but can implement many interfaces).
 
  -> Public Methods: All methods declared in an interface are implicitly public, 
-    and they must be public when implemented by a class.\
+    and they must be public when implemented by a class.
 
 Purpose of Using Interfaces:
  -> Enforcing a Contract: Interfaces ensure that certain methods are implemented in 
