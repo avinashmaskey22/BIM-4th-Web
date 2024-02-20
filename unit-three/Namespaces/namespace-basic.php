@@ -38,6 +38,7 @@
 */
 
 /* Example */
+
 namespace first;
 class test{
     public function __construct()
@@ -56,9 +57,5 @@ class test{
     }
 }
 $test = new test();
-
-
-/* Note: Learn about Namespace Alias on your own. */
-
 
 
