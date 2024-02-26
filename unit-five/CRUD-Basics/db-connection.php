@@ -1,7 +1,7 @@
 <?php
 
 //database connection
-$conn = mysqli_connect("localhost", "root", "", "demo", 3306); //this function returns an mysqli Object
+$conn = mysqli_connect("localhost", "root", "", "sdc_b", 3306); //this function returns an mysqli Object
 
 //to see how the object is returned debug this 
 /* echo "<pre>";

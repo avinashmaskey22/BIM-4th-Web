@@ -17,7 +17,7 @@ $sql = "INSERT INTO students
         email = '" . $_POST['uemail'] . "', 
         address = '" . $_POST['uaddress'] . "', 
         contact_number = '" . $_POST['unum'] . "' 
-        ";
+";
 
 //executing a query in database
 $query = mysqli_query($conn, $sql);

@@ -27,7 +27,6 @@
 
             //fetch a data from a table one row at a time
             // $row = mysqli_fetch_assoc($query);
-
             $i = 1;
             while ($row = mysqli_fetch_assoc($query)) {
         ?>
